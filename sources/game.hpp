@@ -1,8 +1,12 @@
 #pragma once
 #include "player.hpp"
+namespace ariel{
+
 
 class Game{
     public:
+        Player p1;
+        Player p2;
         Game(Player p1, Player p2);
 
         void playTurn();
@@ -12,7 +16,6 @@ class Game{
         void printLog();
         void printStats();
 
-    private:
-        Player p1;
-        Player p2;
+
 };
+}

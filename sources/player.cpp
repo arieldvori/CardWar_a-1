@@ -1,18 +1,19 @@
-#pragma once
 #include "player.hpp"
-#include <string>
+#include <string.h>
+using namespace std;
 class Player {
-    private:
-        std::string name;
     public:
+        std::string name;
+        Player(){};
         Player(std::string name) {
             this->name = name;
         }
         
-        void stacksize(){
-            return;
+        int Player::stacksize(){
+            return 10;
         }
-        void cardesTaken(){
-            return;
+        int Player::cardesTaken(){
+            return 10;
         }
 }; 
+

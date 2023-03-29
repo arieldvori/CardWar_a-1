@@ -1,13 +1,14 @@
 #pragma once
-#include <string>
-
+#include <string.h>
+using namespace std;
 class Player {
     public:
         Player(std::string name);
         
-        void stacksize();
-        void cardesTaken();
+        int stacksize();
+        int cardesTaken();
         
     private:
         std::string name;
 }; 
+

@@ -1,33 +1,31 @@
-#pragma once
 #include "game.hpp"
-class Game{
-    private:
-        Player p1;
-        Player p2;
-    public:
-        Game(Player p1, Player p2){
-            this->p1 = p1;
-            this->p2 = p2;
-        }
+#include "player.hpp"
+    class Game{
+        public:
+            Player p1;
+            Player p2;
+            Game(){};
+            Game(Player p1, Player p2){
+                this->p1 = p1;
+                this->p2 = p2;
+            }
 
-        void playTurn(){
-            return;
-        }
-        void printLastTurn(){
-            return;
-        }
-        void playAll(){
-            return;
-        }
-        void printWiner(){
-            return;
-        }
-        void printLog(){
-            return;
-        }
-        void printStats(){
-            return;
-        }
-
-    
-};
+            void ariel::playTurn(){
+                
+            }
+            void ariel::printLastTurn(){
+                
+            }
+            void ariel::playAll(){
+                
+            }
+            void ariel::printWiner(){
+                
+            }
+            void ariel::printLog(){
+                
+            }
+            void ariel::printStats(){
+                
+            }
+    };
