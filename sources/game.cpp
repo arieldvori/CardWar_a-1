@@ -1,20 +1,20 @@
 #include "game.hpp"
            
-void ariel::Game::playTurn(){
+void Game::playTurn(){
     //waiting for part b
 }
-void ariel::Game::printLastTurn(){
+void Game::printLastTurn(){
     //waiting for part b
 }
-void ariel::Game::playAll(){
+void Game::playAll(){
     //waiting for part b
 }
-void ariel::Game::printWiner(){
+void Game::printWiner(){
     //waiting for part b
 }
-void ariel::Game::printLog(){
+void Game::printLog(){
     //waiting for part b
 }
-void ariel::Game::printStats(){
+void Game::printStats(){
     //waiting for part b
 }

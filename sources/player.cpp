@@ -1,9 +1,9 @@
 #include "player.hpp"
 
-int Player::stacksize(){
+int ariel::Player::stacksize(){
     return 52;
 }
 
-int Player::cardesTaken(){
+int ariel::Player::cardesTaken(){
     return 1;
 }

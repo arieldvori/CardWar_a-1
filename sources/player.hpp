@@ -1,7 +1,7 @@
 #pragma once
 #include <string>
 using namespace std;
-
+namespace ariel{
 class Player{
     private:
         std::string name;
@@ -14,3 +14,4 @@ class Player{
         int stacksize();
         int cardesTaken();
 };
+}
