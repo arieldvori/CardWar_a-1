@@ -1,3 +1,4 @@
+#pragma once
 #include "player.hpp"
 #include <string>
 class Player {

@@ -1,6 +1,4 @@
-#ifndef GAME_HPP
-#define GAME_HPP
-
+#pragma once
 #include "player.hpp"
 
 class Game{
@@ -18,4 +16,3 @@ class Game{
         Player p1;
         Player p2;
 };
-#endif //GAME_H

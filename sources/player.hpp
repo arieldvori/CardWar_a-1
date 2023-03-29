@@ -1,5 +1,4 @@
-#ifndef PLAYER_HPP
-#define PLAYER_HPP
+#pragma once
 #include <string>
 
 class Player {

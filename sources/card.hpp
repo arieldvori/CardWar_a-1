@@ -1,5 +1,4 @@
-#ifndef CARD.HPP
-#define CARD.HPP
+#pragma once
 
 class Card
 {
@@ -7,4 +6,3 @@ class Card
         Card();
 };
 
-#endif 
