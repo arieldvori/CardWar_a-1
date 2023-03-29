@@ -1,9 +1,12 @@
 #include "sources/game.hpp"
 class Game{
+    private:
+        Player p1;
+        Player p2;
     public:
         Game(Player p1, Player p2){
-            this->P1 = p1;
-            this->P2 = p2;
+            this->p1 = p1;
+            this->p2 = p2;
         }
 
         void playTurn(){
@@ -25,7 +28,5 @@ class Game{
             return;
         }
 
-    private:
-        Player p1;
-        Player p2;
+    
 };

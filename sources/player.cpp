@@ -1,7 +1,10 @@
 #include "sources/player.hpp"
+#include <string>
 class Player {
+    private:
+        std::string name;
     public:
-        Player(string name) {
+        Player(std::string name) {
             this->name = name;
         }
         
@@ -11,6 +14,4 @@ class Player {
         void cardesTaken(){
             return;
         }
-    private:
-        string name;
 }; 
