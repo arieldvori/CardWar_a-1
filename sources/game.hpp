@@ -1,7 +1,7 @@
 #ifndef GAME_HPP
 #define GAME_HPP
 
-#include "sources/player.hpp"
+#include "player.hpp"
 
 class Game{
     public:

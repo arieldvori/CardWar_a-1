@@ -1,4 +1,4 @@
-#include "sources/card.hpp"
+#include "card.hpp"
 class Card{
     public:
     Card(){}

@@ -1,15 +1,14 @@
 #ifndef PLAYER_HPP
 #define PLAYER_HPP
-
-//#include "card.hpp"
+#include <string>
 
 class Player {
     public:
-        Player(string name);
+        Player(std::string name);
         
         void stacksize();
         void cardesTaken();
         
     private:
-        string name;
+        std::string name;
 }; 

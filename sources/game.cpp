@@ -1,4 +1,4 @@
-#include "sources/game.hpp"
+#include "game.hpp"
 class Game{
     private:
         Player p1;
