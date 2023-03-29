@@ -3,9 +3,8 @@
 using namespace std;
 namespace ariel{
 class Player{
-    private:
-        std::string name;
     public:
+        std::string name;
         Player(){};
         Player(std::string name){
             this->name = name;

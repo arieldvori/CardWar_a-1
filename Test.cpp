@@ -1,28 +1,28 @@
-#include "sources/game.hpp"
-#include "sources/player.hpp"
-#include "sources/card.hpp"
 #include "doctest.h"
+#include "sources/player.hpp"
+#include "sources/game.hpp"
+#include "sources/card.hpp"
 #include <stdexcept>
-TEST_CASE("Test if the program creates two named players") {
-    Player p1("Alice");
-    Player p2("Bob");
-    CHECK(p1.getName() == "Alice");
-    CHECK(p2.getName() == "Bob");
-}
 
-TEST_CASE("Test if the game is starting correctly:"){
-    Player p1("Alice");
-    Player p2("Bob");
-    Game game(p1, p2);
-    CHECK(game.getPlayer1().getName() == "Alice");
-    CHECK(game.getPlayer2().getName() == "Bob");
-    CHECK(game.getCurrentTurn() == 0);
-}
+TEST_CASE("Creating players with their names") {
+    ariel::Player p1("Alice");
+    ariel::Player p2("Bob");
 
-TEST_CASE("Test if the program creates two named players") {
-    Player p1("Alice");
-    Player p2("Bob");
-    CHECK(p1.getName() == "Alice");
-    CHECK(p2.getName() == "Bob");
+    CHECK(p1.name == "Alice");
+    CHECK(p2.name == "Bob");
+}
+TEST_CASE("if they are starting with the same stack size:") {
+    ariel::Player p1 ("Ariel");
+    ariel::Player p2 ("Bob");
+    Game game(p1,p2);
+    CHECK(p1.stacksize()==p2.stacksize());
+}
+TEST_CASE("if they are taking the same amount:") {
+    ariel::Player p1 ("Ariel");
+    ariel::Player p2 ("Bobsfog");
+    Game game(p1,p2);
+    CHECK(p1.cardesTaken()==1);
+    CHECK(p2.cardesTaken()==1);
+
 }
 

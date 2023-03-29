@@ -3,11 +3,9 @@
 #include "player.hpp"
 
     class Game{
-    private:
+    public:
         ariel::Player p1;
         ariel::Player p2;
-    public:
-
         Game(){}
         Game(ariel::Player p1, ariel::Player p2){
             this->p1 = p1;
