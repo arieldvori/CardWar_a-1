@@ -1,24 +1,14 @@
-// #pragma once
-// class Card
-// {
-//     public:
-//         Card();
-// };
-
 #pragma once
 #include <string>
 using namespace std;
 
 class Card{
-
-public:
+private:
     int num;
-    std::string color;
-
+public:
     Card(){};
-    Card(int num, std::string color){
+    Card(int num){
         this->num = num;
-        this->color = color;
     }
 
 };

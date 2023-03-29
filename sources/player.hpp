@@ -1,14 +1,16 @@
 #pragma once
-#include <string.h>
+#include <string>
 using namespace std;
-class Player {
-    public:
-        Player(std::string name);
-        
-        int stacksize();
-        int cardesTaken();
-        
+
+class Player{
     private:
         std::string name;
-}; 
+    public:
+        Player(){};
+        Player(std::string name){
+            this->name = name;
+        }
 
+        int stacksize();
+        int cardesTaken();
+};

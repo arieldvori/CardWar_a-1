@@ -1,8 +1,1 @@
-// #pragma once
-// #include "card.hpp"
-// class Card{
-//     public:
-//         Card(){};
-
-// };
-#include "card.hpp"
+//in this moment it is not neccecery
