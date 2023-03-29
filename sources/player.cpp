@@ -1,3 +1,4 @@
+#include "sources/player.hpp"
 class Player {
     public:
         Player(string name) {

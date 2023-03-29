@@ -7,6 +7,4 @@ class Card
         Card();
 };
 
-MyC
-
 #endif 
